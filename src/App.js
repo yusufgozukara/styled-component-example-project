@@ -12,7 +12,7 @@ const theme = {
 
 const App = () => {
   return (
-    <ThemeProvider>
+    <ThemeProvider theme={theme}>
       <Header />
     </ThemeProvider>
   );
